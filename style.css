@@ -1,0 +1,47 @@
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.top,
+.bottom {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px 0px;
+}
+
+.text-color-picker,
+.background-color-picker,
+.font-size,
+.color-picker-input,
+select,
+button {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.color-picker-input,
+#fontSize {
+  height: 40px;
+  padding: 6px 12px;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 2px;
+}
+
+.color-picker-input:focus,
+#fontSize:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.canvas {
+  border: 2px solid black;
+}
